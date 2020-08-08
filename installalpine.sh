@@ -9,7 +9,7 @@ apk add git
 su - tmp
 cd /
 git clone https://github.com/marmocchio8/Fileserver.git
-cp -r fileserver/ .
+cp -r Fileserver/ .
 rm installalpine.sh
 cargo build
 exit
