@@ -11,6 +11,7 @@ chmod -R 777 Fileserver
 su -c "cp -r Fileserver /"
 cd /
 su -c "chmod -R 777 Fileserver"
+su -c "chmod 777 /"
 su -c "cp -r Fileserver/* ."
 rm installcentos.sh
 cargo build
