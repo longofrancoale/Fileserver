@@ -1,7 +1,7 @@
 #!/bin/bash
 
-sudo yum install git curl sudo
-sudo yum group install "Development Tools"
+su -c yum install git curl
+su -c yum group install "Development Tools"
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env 
