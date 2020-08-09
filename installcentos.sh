@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo yum install git curl 
+sudo yum install git curl sudo
 sudo yum group install "Development Tools"
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
