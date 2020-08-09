@@ -15,3 +15,4 @@ su -c "chmod 777 /"
 su -c "cp -r Fileserver/* ."
 rm installcentos.sh
 cargo build
+echo "source $HOME/.cargo/env" >> $HOME/.bashrc
